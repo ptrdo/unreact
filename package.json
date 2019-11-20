@@ -1,0 +1,43 @@
+{
+  "name": "unreact",
+  "version": "0.1.0",
+  "description": "Explorations into JavaScript doing fundamental things, sans frameworks.",
+  "main": "deploy/index.js",
+  "files": [
+    "lib/",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "javascript",
+    "frontend",
+    "ui",
+    "vanilla",
+    "boilerplate",
+    "101"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptrdo/unreact.git"
+  },
+  "authors": [
+    "Peter Sylwester <ptrdo@users.noreply.github.com>"
+  ],
+  "homepage": "http://unreact.org",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.1.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {}
+}

@@ -1,2 +1,2 @@
 # unreact
-Explorations into JavaScript doing fundamental things, sans frameworks.
+A library of boilerplate demonstrations implementing state management, custom events, Single Page Application routing, Representational State Transfer Request and Response management, et al, using plain standards-compliant JavaScript sans framework (aka “vanilla”).  
